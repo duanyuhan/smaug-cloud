@@ -1,0 +1,9 @@
+rootProject.name = 'smaug-cloud'
+include 'smaug-config-service'
+include 'smuag-eureka-service'
+include 'smaug-mq-service'
+include 'smaug-mapper'
+include 'smaug-config'
+include 'smaug-bean'
+include 'smaug-customer-service'
+

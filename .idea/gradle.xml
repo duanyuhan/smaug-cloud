@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/local/gradle-3.2" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/smaug-bean" />
+            <option value="$PROJECT_DIR$/smaug-config" />
+            <option value="$PROJECT_DIR$/smaug-config-service" />
+            <option value="$PROJECT_DIR$/smaug-customer-service" />
+            <option value="$PROJECT_DIR$/smaug-mapper" />
+            <option value="$PROJECT_DIR$/smaug-mq-service" />
+            <option value="$PROJECT_DIR$/smuag-eureka-service" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/smaug-bean" />
+            <option value="$PROJECT_DIR$/smaug-config" />
+            <option value="$PROJECT_DIR$/smaug-config-service" />
+            <option value="$PROJECT_DIR$/smaug-customer-service" />
+            <option value="$PROJECT_DIR$/smaug-mapper" />
+            <option value="$PROJECT_DIR$/smaug-mq-service" />
+            <option value="$PROJECT_DIR$/smuag-eureka-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
