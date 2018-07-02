@@ -1,0 +1,13 @@
+server:
+  port: 3001
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    hostname: 127.0.0.1
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:3002/eureka
+    register-with-eureka: true
+    fetch-registry: true

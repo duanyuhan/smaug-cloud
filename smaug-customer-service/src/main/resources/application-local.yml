@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: smaug-customer-service-local

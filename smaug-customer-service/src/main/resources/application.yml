@@ -1,0 +1,14 @@
+server:
+  port: 2001
+spring:
+  profiles:
+    active: local
+
+info:
+  app:
+    name: ${spring.application.name}
+    address: ${spring.cloud.client.ipAddress}:${server.port}
+    env: ${spring.profiles.active}
+    version: 20180702A
+logging:
+  config: classpath:log4j2.xml
