@@ -20,4 +20,7 @@ dependencyManagement {
 }
 dependencies {
     testCompile 'junit:junit:4.12'
+
+    compile 'org.springframework.cloud:spring-cloud-config-server'
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
 }

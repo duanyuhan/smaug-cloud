@@ -1,0 +1,6 @@
+server:
+  port: 3101
+
+spring:
+  profiles:
+    active: local
