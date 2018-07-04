@@ -5,13 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/duanyuhan/smaug-cloud-config.git
-          search-paths: smaug
-#          username: tab.config
-#          password: 0Rv(u6Dezs
+          uri: https://github.com/duanyuhan/smaug-cloud-config.git  # 配置代码git 地址
+          search-paths: smaug   #配置代码的路径
       name: smaug
-      profile: jdbc,redis
-      label: master
+      profile: jdbc,redis    ## 读取文件后缀
+      label: master          ## 分支名
     stream:
       kafka:
         binder:
