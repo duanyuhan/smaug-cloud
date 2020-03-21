@@ -1,9 +1,0 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://peer1:3001/eureka,http://peer2:3002/eureka
-  instance:
-    prefer-ip-address: true
-    lease-renewal-interval-in-seconds: 10
-    lease-expiration-duration-in-seconds: 30
-    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
