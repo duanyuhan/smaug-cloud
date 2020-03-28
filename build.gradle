@@ -49,5 +49,6 @@ subprojects {
         compile 'mysql:mysql-connector-java:6.0.5'
         compile 'tk.mybatis:mapper:3.4.6'
         compile 'com.github.pagehelper:pagehelper:5.1.2'
+        compile 'org.springframework.boot:spring-boot-starter-amqp'
     }
 }
